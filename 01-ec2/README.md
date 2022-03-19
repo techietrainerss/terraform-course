@@ -2,6 +2,7 @@
 
 ### EC2 creation
 - You should have AWS account
+- Install visual studio code, git bash
 - Create IAM programatic user
 - Write provider (in this case AWS)
 - Provide credentials to terraform (terraform need to authenticate before creating the resources)
