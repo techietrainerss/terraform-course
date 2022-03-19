@@ -29,6 +29,14 @@ terraform destroy
 ```
 **NOTE:** AMI is different for every region, make sure you get the AMI same as the region you gave in provider.tf
 
+### Syntax
+Common HCL syntax is as below.
+```
+resource "type-of-resource-from-provider" "your-friendly-name" {
+    attribute-1 = ""
+    attribute-2 = ""
+}
+```
 ### How terraform works?
 
 ![alt text](how-terraform-works.PNG)
