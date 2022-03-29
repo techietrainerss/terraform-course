@@ -16,8 +16,9 @@ terraform version different, provider version is different.
 ```
 terraform init
 ```
-init command will create .terraform directory, .terraform.lock.hcl files in your folder
-- Run hte below command to check the resources
+init command will create .terraform directory, .terraform.lock.hcl files in your folder <br />
+**NOTE:** you need to ignore .terraform directory(refer .gitignore file). .terraform.lock.hcl file should not be ignore, it should be maintained in repository.
+- Run the below command to check the resources
 ```
 terraform plan
 ```
