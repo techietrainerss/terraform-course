@@ -2,7 +2,8 @@
 
 ### EC2 creation
 - You should have AWS account
-- Install visual studio code, git bash
+- Install visual studio code, git bash, aws cli(I am doing in windows)
+- Refer (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to install aws cli
 - Create IAM programatic user
 - Write provider (in this case AWS)
 - Provide credentials to terraform (terraform need to authenticate before creating the resources)
@@ -15,6 +16,7 @@ terraform version different, provider version is different.
 ```
 terraform init
 ```
+init command will create .terraform directory, .terraform.lock.hcl files in your folder
 - Run hte below command to check the resources
 ```
 terraform plan
@@ -33,8 +35,8 @@ terraform destroy
 Common HCL syntax is as below.
 ```
 resource "type-of-resource-from-provider" "your-friendly-name" {
-    attribute-1 = ""
-    attribute-2 = ""
+    argument-1 = ""
+    argument-2 = ""
 }
 ```
 ### How terraform works?
