@@ -27,7 +27,7 @@ variable "name-of-your-variable"{
     &ensp;Declare the variable in variables.tf file. You can create terraform.tfvars file to override the default values in variables.tf&ensp;
 - Environment variables </br>
     &ensp;Declare the variable in variables.tf file. Create an environment variable with TF_VAR_CIDR, then terraform can read the values. </br>
-    &ensp;For Windows SETX TF_VAR_[variable-name], for example SETX TF_VAR_cidr=10.0.0.0/16 </br>
+    &ensp;For Windows SET TF_VAR_[variable-name], for example SET TF_VAR_cidr=10.0.0.0/16 </br>
     &ensp;For Linux example export TF_VAR_cidr="10.0.0.0/18"&ensp;
 - Command line </br>
     &ensp;Declare the variable in variables.tf file. While running the command give like this terraform plan -var="cidr=10.0.0.0/16"
