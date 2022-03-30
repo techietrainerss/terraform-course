@@ -37,5 +37,4 @@ variable "name-of-your-variable"{
 2. terraform.tfvars
 3. Default
 4. Environment variables
-5. Prompt
-If terraform is not able to find the values through above ways then it will prompt
+5. Prompt (If terraform is not able to find the values through above ways then it will prompt)
