@@ -35,6 +35,7 @@ variable "name-of-your-variable"{
 ### Preference
 1. Command Line
 2. terraform.tfvars
-3. Default'
-4. Environment variables </br>
+3. Default
+4. Environment variables
+5. Prompt
 If terraform is not able to find the values through above ways then it will prompt
