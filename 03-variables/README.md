@@ -38,3 +38,5 @@ variable "name-of-your-variable"{
 3. Default
 4. Environment variables
 5. Prompt (If terraform is not able to find the values through above ways then it will prompt)
+
+**NOTE:** We mostly use terraform.tfvars. In few cases like using credentials we use environment variables or command line.
