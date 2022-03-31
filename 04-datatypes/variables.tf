@@ -14,7 +14,7 @@ variable "environment"{
 }
 
 variable "empID" {
-    default = "123446ABCD"
+    default = "123446"
     type = number
 }
 
