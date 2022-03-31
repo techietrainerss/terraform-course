@@ -1,5 +1,5 @@
 # Create a new load balancer
-resource "aws_elb" "myElb" {
+/* resource "aws_elb" "myElb" {
   name               = "techietrainers-elb"
   availability_zones = ["ap-south-1a", "ap-south-1b"]
 
@@ -18,4 +18,4 @@ resource "aws_elb" "myElb" {
   tags = {
    
   }
-}
+} */
