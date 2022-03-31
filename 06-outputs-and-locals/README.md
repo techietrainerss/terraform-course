@@ -9,12 +9,13 @@ output "name-of-output"{
 ```
 
 ### Locals
-locals can be compared as temproray variables of the function. As the name indicates locals in terraform are only valid to that particular .tf only. Usually we define locals at the top of the file.
+locals can be compared as temproray variables of the function. Usually we define locals at the top of the file.
 
-Create locals at the top and use it wherever you want
+Create locals at the top and use it wherever you want in the terraform folder
 
 #### Uses
 - If a value is used single/multiple times, declare it in local and refer it.
 - You can create repetitive expresssion in local and refer it anywhere in the file.
+- You can combine variables with locals for best results
 
 **NOTE:** We should not over utilise locals, it should be used to avoid repeating the same values or expressions multiple times in a configuration.

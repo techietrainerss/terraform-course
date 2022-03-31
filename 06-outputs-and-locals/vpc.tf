@@ -5,10 +5,12 @@ resource "aws_vpc" "main" {
   enable_dns_hostnames = true
 
   tags = {
-    
+    Name = "TechieTrainers-VPC"
+    Project = "TechieTrainers"
+    Environment = "DEV"
   }
 }
 
 output "vpcID" {
-  value = aws_vpc.main
+  value = aws_vpc.main.id
 }
