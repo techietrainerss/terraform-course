@@ -14,7 +14,7 @@ locals can be compared as temproray variables of the function. As the name indic
 Create locals at the top and use it wherever you want
 
 #### Uses
-- If a value is used multiple times, declare it in local and refer it.
+- If a value is used single/multiple times, declare it in local and refer it.
 - You can create repetitive expresssion in local and refer it anywhere in the file.
 
 **NOTE:** We should not over utilise locals, it should be used to avoid repeating the same values or expressions multiple times in a configuration.
